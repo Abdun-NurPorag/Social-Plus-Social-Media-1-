@@ -1,0 +1,104 @@
+<style type='text/css'>    #nav{
+        position: fixed;
+        width:100%;
+        height:100px;
+        top:1;
+        left:0;
+        right:1px;
+        background-color:#FF5400;
+        overflow:1;
+        border-bottom:2px solid #80FF00;
+    }
+    span{
+        display:none ;
+       
+    }
+    :target{
+        display: block;
+    }
+   #ft1{
+       color:white;
+       font-size:30;
+   }
+   button{
+       background-color:white;
+       border:none;
+       outline:none;
+       color:#00B3FF;
+       width:20%;
+       height:40px;
+    margin:0;
+   
+   }
+#iframe{
+width:100%;
+height:67%;
+left:1%;
+top:0;
+border:none;
+outline:none;
+position:fixted;
+}
+#post{
+width:100%;
+height:160px;
+border-radius:5px;
+background-color:00B4FF;
+
+}
+#circle{
+width:70px;
+height:70px;
+color:white;
+font-size:40;
+background-color:6100FF;
+border-radius:50%;
+}
+#button{
+width:60px;
+height:50px;
+border-radius:5px;
+outline:none;
+background-color:FF4C00;
+border:none;
+}
+</style><meta name='viewport'content='width=device-width, initial-scale=1.0'> <link rel='stylesheet'href='ratchet.css'></rel>
+<div id='nav'><b><font id='ft1'>Social Plus</font></b><center></br><br><a href='#tar1'><button>Home</button></a><a href='#tar2'><button>Massage</button></a><a href='#tar3'><button>Notification</button></a>
+<a href='#tar4'><button>Settings</button></a></div><br><br><br><br><br><span id='tar1'>
+<iframe src='home.html'id='iframe'></iframe>
+<div id='profile'>
+<div id='post'><div id='circle'>P</div><a href='post.html'><button onclick='create()'id='bt1'>Create</button></a></div></div>
+</span><span id='tar2'><div id='cir'></div><div id='bio'></div></span><span id='tar3'>
+<iframe src='notification.html'id='iframe'></iframe>
+</span><span id='tar4'>
+<ul class='table-view'>
+  <li class='table-view-cell'>
+    Profile Guard
+    <div class='toggle active'>
+      <div class='toggle-handle'></div>
+    </div>
+  </li>
+  <li class='table-view-cell'>
+    Ai Protection
+    <div class='toggle active'>
+      <div class='toggle-handle'></div>
+</li>
+<li class='table-view-cell'>
+    Account Auto Check up
+    <div class='toggle active'>
+      <div class='toggle-handle'></div>
+</li>
+<li class='table-view-cell'>
+    Auto upload
+    <div class='toggle'>
+      <div class='toggle-handle'></div>
+</li>
+<li class='table-view-cell'>
+    AI
+    <div class='toggle'>
+      <div class='toggle-handle'></div>
+</li>
+    </ul>
+<br>
+<center><code>Social Plus2023©All rights Reserved</code></center>
+</span>

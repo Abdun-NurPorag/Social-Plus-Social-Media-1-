@@ -1,0 +1,46 @@
+body{
+    background-color: #FFC200;
+    
+}
+#div1{
+    width:90%;
+    height:50%;
+    background-color: #6600FF;
+    border:solid 1px #FFBD00;
+    margin-top:100px;
+    border-radius:10px;
+    box-shadow:3px 2px 2px white;
+}
+#title{
+    font-size:30px;
+    color:white;
+}
+#n{
+    width:70%;
+    height:30px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    background-color:white;
+    font-size:15;
+    margin:1px;
+}
+#submit{
+    width:100px;
+    height:40px;
+    border:none;
+    background-color: #FF5D00;
+    color:white;
+    
+    
+}
+#cancle{
+    width:100px;
+    height:40px;
+    border:none;
+    background-color:#FF0014;
+    color:white;
+}
+#link1{
+    color:white;
+}

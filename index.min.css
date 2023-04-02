@@ -1,0 +1,58 @@
+body{
+    background-color:#CDFFBA;
+    
+}
+#div1{
+    width:90%;
+    height:80%;
+    background-color:#FF76A4;
+    border:solid 1px #FFBD00;
+    margin-top:100px;
+    border-radius:10px;
+    box-shadow:3px 2px 2px white;
+}
+#title{
+    font-size:30px;
+    color:white;
+}
+#n{
+    width:70%;
+    height:30px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    background-color:white;
+    font-size:15;
+    margin:1px;
+}
+#submit{
+    width:100px;
+    height:40px;
+    border:none;
+    background-color: #9C8BFF;
+    color:white;
+    box-shadow: 3px 3px 3px #9C8BFF;
+    
+}
+#cancle{
+    width:100px;
+    height:40px;
+    border:none;
+    background-color:#FF9387;
+    color:white;
+    box-shadow:3px 3px 2px #FF9387;
+}
+#link1{
+    color:white;
+}
+#t{
+    
+width:70%;
+    height:60px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    background-color:white;
+    font-size:15;
+    margin:1px;
+}
